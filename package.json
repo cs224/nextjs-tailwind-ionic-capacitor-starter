@@ -9,7 +9,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "typesync": "typesync",
+    "ncu": "npm-check-updates --target minor",
+    "ncu-u": "npm-check-updates --target minor -u"
   },
   "dependencies": {
     "@capacitor/android": "^3.0.1",
@@ -32,10 +35,12 @@
   "devDependencies": {
     "eslint": "^7.28.0",
     "eslint-config-next": "^11.0.0",
+    "npm-check-updates": "^13.1.3",
     "ionicons": "^5.2.3",
     "prettier": "^2.2.1",
     "pullstate": "1.24",
     "react-use-gesture": "^9.1.3",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "typesync": "^0.9.1"
   }
 }
